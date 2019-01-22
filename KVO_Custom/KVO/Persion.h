@@ -9,15 +9,10 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
-@class Dog;
 
 @interface Persion : NSObject
 
-@property (nonatomic, assign) NSInteger age;
-@property (nonatomic, strong) Dog *dog;
-
-
-- (void)YH_addObserver:(NSObject *)observer forKeyPath:(NSString *)keyPath options:(NSKeyValueObservingOptions)options context:(nullable void *)context;
+@property (nonatomic, strong) NSString *age;
 
 @end
 

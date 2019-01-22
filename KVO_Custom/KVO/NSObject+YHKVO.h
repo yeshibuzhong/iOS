@@ -10,4 +10,7 @@
 
 @interface NSObject (YHKVO)
 
+- (void)YH_addObserver:(NSObject *)observer forKeyPath:(NSString *)keyPath options:(NSKeyValueObservingOptions)options context:(nullable void *)context;
+
+
 @end

@@ -37,6 +37,12 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     static int a = 0;
     a++;
+//    //将要修改
+//    [_p willChangeValueForKey:NSStringFromSelector(@selector(age))];
+//    _p.age= a; //注释掉此行可以正常收到监听回调, 但是没有任何结果
+//    //已经修改
+//    [_p didChangeValueForKey:NSStringFromSelector(@selector(age))];
+    
     _p.age = a;
     _p.dog.height = a;
     _p.dog.age = a;

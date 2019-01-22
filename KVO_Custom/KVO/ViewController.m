@@ -22,7 +22,8 @@
     [super viewDidLoad];
 
     _p = [[Persion alloc] init];
-    [_p YH_addObserver:self forKeyPath:@"age" options:(NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld) context:nil];
+
+    [_p YH_addObserver:self forKeyPath:NSStringFromSelector(@selector(age)) options:(NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld) context:nil];
     
 }
 

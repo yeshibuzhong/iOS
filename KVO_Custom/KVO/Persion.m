@@ -10,10 +10,6 @@
 
 @implementation Persion
 
-- (void)setAge:(NSInteger)age
-{
-    
-}
 
 @end
 

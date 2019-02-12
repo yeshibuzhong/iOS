@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F759CF922127A5B00F3AD0B /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F759CF822127A5B00F3AD0B /* Student.m */; };
 		C9349E102211A83E00DD9E18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9349E0F2211A83E00DD9E18 /* AppDelegate.m */; };
 		C9349E132211A83E00DD9E18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9349E122211A83E00DD9E18 /* ViewController.m */; };
 		C9349E162211A83E00DD9E18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9349E142211A83E00DD9E18 /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F759CF722127A5B00F3AD0B /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		4F759CF822127A5B00F3AD0B /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		C9349E0B2211A83E00DD9E18 /* Runtime_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runtime_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9349E0E2211A83E00DD9E18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C9349E0F2211A83E00DD9E18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				C9349E122211A83E00DD9E18 /* ViewController.m */,
 				C9349E402211A85D00DD9E18 /* Person.h */,
 				C9349E412211A85D00DD9E18 /* Person.m */,
+				4F759CF722127A5B00F3AD0B /* Student.h */,
+				4F759CF822127A5B00F3AD0B /* Student.m */,
 				C9349E142211A83E00DD9E18 /* Main.storyboard */,
 				C9349E172211A83F00DD9E18 /* Assets.xcassets */,
 				C9349E192211A83F00DD9E18 /* LaunchScreen.storyboard */,
@@ -269,6 +274,7 @@
 			files = (
 				C9349E132211A83E00DD9E18 /* ViewController.m in Sources */,
 				C9349E1E2211A83F00DD9E18 /* main.m in Sources */,
+				4F759CF922127A5B00F3AD0B /* Student.m in Sources */,
 				C9349E422211A85D00DD9E18 /* Person.m in Sources */,
 				C9349E102211A83E00DD9E18 /* AppDelegate.m in Sources */,
 			);

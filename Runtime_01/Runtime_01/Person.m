@@ -8,19 +8,42 @@
 
 #import "Person.h"
 #import <objc/message.h>
+#import "Student.h"
 
 @implementation Person
 
-void sendMessage(id self, SEL _cmd, NSString *message) {
-    NSLog(@"%@", message);
-}
+//void sendMessage(id self, SEL _cmd, NSString *message) {
+//    NSLog(@"Person--%@", message);
+//}
 
-+ (BOOL)resolveInstanceMethod:(SEL)sel {
-    NSString *metnodName = NSStringFromSelector(sel);
-    if ([metnodName isEqualToString:@"sendMessage:"]) {
-       return class_addMethod(self, sel, (IMP)sendMessage, "v@:@");
-    }
-    return NO;
+//+ (BOOL)resolveInstanceMethod:(SEL)sel {
+//    if (sel == @selector(sendMessage:)) {
+//        return class_addMethod(self, sel, (IMP)sendMessage, "v@:@");
+//    }
+//    return NO;
+//}
+
+//- (id)forwardingTargetForSelector:(SEL)aSelector {
+//    if (aSelector == @selector(sendMessage:)) {
+//        return [Student new];
+//    } else {
+//        return [super forwardingTargetForSelector:aSelector];
+//    }
+//}
+
+//- (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector {
+//    if (aSelector == @selector(sendMessage:)) {
+//        return [NSMethodSignature signatureWithObjCTypes:"V@:@"];
+//    }
+//    return nil;
+//}
+//
+//- (void)forwardInvocation:(NSInvocation *)anInvocation {
+//    [anInvocation invokeWithTarget:[Student new]];
+//}
+
+- (void)doesNotRecognizeSelector:(SEL)aSelector {
+    NSLog(@"doesNotRecognizeSelector");
 }
 
 @end

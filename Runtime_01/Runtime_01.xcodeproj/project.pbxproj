@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F385DA9222A1ABA00B03399 /* Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F385DA8222A1ABA00B03399 /* Base.m */; };
+		4F385DAC222A1BAE00B03399 /* NSNull+Exception.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F385DAA222A1BAE00B03399 /* NSNull+Exception.m */; };
 		4F759CF922127A5B00F3AD0B /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F759CF822127A5B00F3AD0B /* Student.m */; };
 		C9349E102211A83E00DD9E18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9349E0F2211A83E00DD9E18 /* AppDelegate.m */; };
 		C9349E132211A83E00DD9E18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9349E122211A83E00DD9E18 /* ViewController.m */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F385DA7222A1ABA00B03399 /* Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base.h; sourceTree = "<group>"; };
+		4F385DA8222A1ABA00B03399 /* Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base.m; sourceTree = "<group>"; };
+		4F385DAA222A1BAE00B03399 /* NSNull+Exception.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+Exception.m"; sourceTree = "<group>"; };
+		4F385DAB222A1BAE00B03399 /* NSNull+Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+Exception.h"; sourceTree = "<group>"; };
 		4F759CF722127A5B00F3AD0B /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		4F759CF822127A5B00F3AD0B /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		C9349E0B2211A83E00DD9E18 /* Runtime_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runtime_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,10 +117,14 @@
 				C9349E0F2211A83E00DD9E18 /* AppDelegate.m */,
 				C9349E112211A83E00DD9E18 /* ViewController.h */,
 				C9349E122211A83E00DD9E18 /* ViewController.m */,
+				4F385DA7222A1ABA00B03399 /* Base.h */,
+				4F385DA8222A1ABA00B03399 /* Base.m */,
 				C9349E402211A85D00DD9E18 /* Person.h */,
 				C9349E412211A85D00DD9E18 /* Person.m */,
 				4F759CF722127A5B00F3AD0B /* Student.h */,
 				4F759CF822127A5B00F3AD0B /* Student.m */,
+				4F385DAB222A1BAE00B03399 /* NSNull+Exception.h */,
+				4F385DAA222A1BAE00B03399 /* NSNull+Exception.m */,
 				C9349E142211A83E00DD9E18 /* Main.storyboard */,
 				C9349E172211A83F00DD9E18 /* Assets.xcassets */,
 				C9349E192211A83F00DD9E18 /* LaunchScreen.storyboard */,
@@ -272,10 +282,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F385DAC222A1BAE00B03399 /* NSNull+Exception.m in Sources */,
 				C9349E132211A83E00DD9E18 /* ViewController.m in Sources */,
 				C9349E1E2211A83F00DD9E18 /* main.m in Sources */,
 				4F759CF922127A5B00F3AD0B /* Student.m in Sources */,
 				C9349E422211A85D00DD9E18 /* Person.m in Sources */,
+				4F385DA9222A1ABA00B03399 /* Base.m in Sources */,
 				C9349E102211A83E00DD9E18 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

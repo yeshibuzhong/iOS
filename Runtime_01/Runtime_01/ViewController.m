@@ -24,6 +24,9 @@
     [p sendMessage:@"message"];
     
 //    objc_msgSend(p, @selector(sendMessage:), @"message");
+    
+    NSDictionary* dict = [[NSNull alloc] init];
+    [dict objectForKey:@"123"];
 
 }
 

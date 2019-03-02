@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Base.h"
 
-@interface Person : NSObject
+@interface Person : Base
 
 - (void)sendMessage:(NSString *)str;
 

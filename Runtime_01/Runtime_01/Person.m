@@ -16,12 +16,12 @@ void sendMessage(id self, SEL _cmd, NSString *message) {
     NSLog(@"Person--%@", message);
 }
 
-+ (BOOL)resolveInstanceMethod:(SEL)sel {
-    if (sel == @selector(sendMessage:)) {
-        return class_addMethod(self, sel, (IMP)sendMessage, "v@:@");
-    }
-    return NO;
-}
+//+ (BOOL)resolveInstanceMethod:(SEL)sel {
+//    if (sel == @selector(sendMessage:)) {
+//        return class_addMethod(self, sel, (IMP)sendMessage, "v@:@");
+//    }
+//    return NO;
+//}
 
 - (id)forwardingTargetForSelector:(SEL)aSelector {
     if (aSelector == @selector(sendMessage:)) {
